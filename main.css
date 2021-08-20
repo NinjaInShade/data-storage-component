@@ -1,0 +1,45 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.left-section {
+  background-color: var(--primary-dark);
+  box-shadow: 0 75px 100px -30px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 100px 10px 10px;
+  max-width: 350px;
+  padding: 40px;
+  width: 100%;
+}
+
+.logo {
+  margin-bottom: 33px;
+}
+
+.left-section-btns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.left-section-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: var(--black);
+  border-radius: 10px;
+  width: 48px;
+  height: 48px;
+}
+
+.left-section-btn:not(:last-child) {
+  margin-right: 16px;
+}
+
+.right-section {
+}
