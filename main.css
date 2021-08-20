@@ -38,6 +38,10 @@
   height: 48px;
 }
 
+.left-section-btn:focus {
+  outline: 2px solid #fff;
+}
+
 .left-section-btn:not(:last-child) {
   margin-right: 16px;
 }
