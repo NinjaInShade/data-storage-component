@@ -58,6 +58,7 @@
 
 .usage-text {
   color: var(--white);
+  padding-right: 15px;
   width: 100%;
 }
 
@@ -140,4 +141,41 @@
 .usage-slider-labels-text {
   color: var(--white);
   font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .left-section {
+    max-width: none;
+    margin: 0 0 16px 0;
+  }
+
+  .right-section {
+    padding-bottom: 52px;
+  }
+
+  .usage-text {
+    text-align: center;
+  }
+
+  .usage-slider-container {
+    margin-bottom: 10px;
+  }
+
+  .right-section::before {
+    display: none;
+  }
+
+  .usage-left {
+    top: unset;
+    transform: translateX(50%);
+    border-radius: 10px;
+    bottom: -36px;
+    right: 50%;
+    width: fit-content;
+    width: -moz-fit-content;
+  }
 }
