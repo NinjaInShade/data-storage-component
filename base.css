@@ -22,9 +22,12 @@
   --white: #dbd9ff;
 
   /* Typography */
-  --h1: 1.75rem;
+  --h1: 2.5rem;
+  --h1-line-height: 40px;
 
-  --body: 1rem;
+  --body: 0.875rem;
+
+  --body-s: 0.75rem;
 }
 
 body {
@@ -33,26 +36,26 @@ body {
   align-items: center;
   background: no-repeat url('./assets/bg-desktop.png') bottom / 100% 50%;
   background-color: var(--black);
+  padding: 130px 25px 165px 25px;
   min-height: 100vh;
 }
 
 h1 {
   font-size: var(--h1);
+  line-height: var(--h1-line-height);
 }
 
 .body-text {
   font-size: var(--body);
 }
 
+.body-s-text {
+  font-size: var(--body-s);
+}
+
 @media (max-width: 375px) {
   body {
     background: no-repeat url('./assets/bg-mobile.png') center / cover;
     background-color: var(--black);
-  }
-
-  :root {
-    --h1: 22px;
-
-    --body: 0.938rem;
   }
 }
