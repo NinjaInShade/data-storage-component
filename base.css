@@ -31,6 +31,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: no-repeat url('./assets/bg-desktop.png') bottom / 100% 50%;
+  background-color: var(--primary-dark);
   min-height: 100vh;
 }
 
@@ -43,6 +45,11 @@ h1 {
 }
 
 @media (max-width: 375px) {
+  body {
+    background: no-repeat url('./assets/bg-mobile.png') center / cover;
+    background-color: var(--primary-dark);
+  }
+
   :root {
     --h1: 22px;
 
