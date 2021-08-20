@@ -12,8 +12,14 @@
   font-size: 16px;
 
   /* Primary */
+  --primary-dark: #1e2d69;
+  --primary: #697ed4;
+
+  --gradient: linear-gradient(90deg, rgba(255, 161, 151, 1) 0%, rgba(255, 74, 149, 1) 100%);
 
   /* Neutral */
+  --black: #0c122c;
+  --white: #dbd9ff;
 
   /* Typography */
   --h1: 1.75rem;
